@@ -1,0 +1,16 @@
+
+第一个cli命令
+
+python cli.py optimize-battery --data data/experimental_data.json --initial-params data/initial_params.json
+
+电池优化
+python cli.py optimize-battery --data data/experimental_data.json --initial-params data/initial_params.json
+python cli.py optimize-battery --data test_data.json --initial-params initial_params.json --output output
+python cli.py optimize-battery --data test_data.json --initial-params initial_params.json --output output_optimization
+
+算法优化
+python cli.py optimize-algo --test-cases data/test_cases.json --initial-params data/initial_params.json
+
+
+
+图  python cli.py plot-paper-figs
